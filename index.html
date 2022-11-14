@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="main-header__search">
+            <input type="text" placeholder="Discover Anything" class="main-header__search__input">
+            <img src="./assets/icons/search-new.avif" alt="search icon" class="main-header__search__icon">
+        </div>
+        <div class="main-header__logo">
+            <img src="./assets/img/hn-logo.avif" alt="">
+        </div>
+        <div class="main-header__buttons">
+            <button class="main-header__button main-header__button--border">Start Writing</button>
+            <button class="main-header__button">Log in</button>
+            <img class="main-header__buttons__icon" src="./assets/img/unread-bell.avif" alt="">
+        </div>
+    </header>
+    <nav class="main-menu">
+        <ul class="main-menu__list">
+            <li class="main-menu__list__option main-menu__list__option--read">Read</li>
+            <div class="main-menu__list__option__dropdown">
+                <section class="main-menu__list__option__dropdown__section">
+                    <header
+                        class="main-menu__list__option__dropdown__section__header main-menu__list__option__dropdown__section__header--right">
+                        Discover (Sort By)</header>
+                    <ul class="main-menu__list__option__dropdown__section__sublist">
+                        <li class="main-menu__list__option__dropdown__section__sublist__option">All Topics</li>
+                        <li class="main-menu__list__option__dropdown__section__sublist__option">Top Stories</li>
+                        <li class="main-menu__list__option__dropdown__section__sublist__option">TechBrief</li>
+                        <li class="main-menu__list__option__dropdown__section__sublist__option">Live Reactions</li>
+                        <li class="main-menu__list__option__dropdown__section__sublist__option">Noonification</li>
+                        <li class="main-menu__list__option__dropdown__section__sublist__option">SuperTag</li>
+                        <li class="main-menu__list__option__dropdown__section__sublist__option">Books</li>
+                        <li class="main-menu__list__option__dropdown__section__sublist__option">Slogging</li>
+                        <li class="main-menu__list__option__dropdown__section__sublist__option">All Newsletters</li>
+                        <li class="main-menu__list__option__dropdown__section__sublist__option">Random Story</li>
+                        <li class="main-menu__list__option__dropdown__section__sublist__option">Daily Archive</li>
+                    </ul>
+                </section class="main-menu__list__option__dropdown__section">
+                <section class="main-menu__list__option__dropdown__section">
+                    <header class="main-menu__list__option__dropdown__section__header">Tech</header>
+                    <ul class="main-menu__list__option__dropdown__section__sublist">
+                        <li class="main-menu__list__option__dropdown__section__sublist__option">All Topics (Click Here)
+                        </li>
+                        <li class="main-menu__list__option__dropdown__section__sublist__option">AI</li>
+                        <li class="main-menu__list__option__dropdown__section__sublist__option">Blockchain</li>
+                        <li class="main-menu__list__option__dropdown__section__sublist__option">Cybersecurity</li>
+                        <li class="main-menu__list__option__dropdown__section__sublist__option">Data Science</li>
+                        <li class="main-menu__list__option__dropdown__section__sublist__option">Decentralization</li>
+                        <li class="main-menu__list__option__dropdown__section__sublist__option">Finance</li>
+                        <li class="main-menu__list__option__dropdown__section__sublist__option">Futurism</li>
+                        <li class="main-menu__list__option__dropdown__section__sublist__option">Gaming</li>
+                        <li class="main-menu__list__option__dropdown__section__sublist__option">Hardware Reviews</li>
+                        <li class="main-menu__list__option__dropdown__section__sublist__option">Machine Learning</li>
+                        <li class="main-menu__list__option__dropdown__section__sublist__option">Media</li>
+                        <li class="main-menu__list__option__dropdown__section__sublist__option">Programming</li>
+                        <li class="main-menu__list__option__dropdown__section__sublist__option">Engineering</li>
+                        <li class="main-menu__list__option__dropdown__section__sublist__option">Robotics</li>
+                        <li class="main-menu__list__option__dropdown__section__sublist__option">Virtual Reality</li>
+                    </ul>
+                </section>
+                <section class="main-menu__list__option__dropdown__section">
+                    <header class="main-menu__list__option__dropdown__section__header">Software</header>
+                    <ul class="main-menu__list__option__dropdown__section__sublist">
+                        <li class="main-menu__list__option__dropdown__section__sublist__option">APIs</li>
+                        <li class="main-menu__list__option__dropdown__section__sublist__option">Architecture</li>
+                        <li class="main-menu__list__option__dropdown__section__sublist__option">C</li>
+                        <li class="main-menu__list__option__dropdown__section__sublist__option">Coding</li>
+                        <li class="main-menu__list__option__dropdown__section__sublist__option">Engineering</li>
+                        <li class="main-menu__list__option__dropdown__section__sublist__option">Java</li>
+                        <li class="main-menu__list__option__dropdown__section__sublist__option">Javascript</li>
+                        <li class="main-menu__list__option__dropdown__section__sublist__option">NodeJS</li>
+                        <li class="main-menu__list__option__dropdown__section__sublist__option">Open Source</li>
+                        <li class="main-menu__list__option__dropdown__section__sublist__option">PHP</li>
+                        <li class="main-menu__list__option__dropdown__section__sublist__option">Programming</li>
+                        <li class="main-menu__list__option__dropdown__section__sublist__option">Python</li>
+                        <li class="main-menu__list__option__dropdown__section__sublist__option">React</li>
+                        <li class="main-menu__list__option__dropdown__section__sublist__option">Ruby</li>
+                        <li class="main-menu__list__option__dropdown__section__sublist__option">SQL</li>
+                        <li class="main-menu__list__option__dropdown__section__sublist__option">Swift</li>
+                    </ul>
+                </section>
+            </div>
+            <li class="main-menu__list__option">Top Stories</li>
+            <li class="main-menu__list__option main-menu__list__option--white">Write</li>
+            <li class="main-menu__list__option">Learn</li>
+            <li class="main-menu__list__option">About</li>
+            <li class="main-menu__list__option">Help</li>
+            <li class="main-menu__list__option">Partner</li>
+            <li class="main-menu__list__option">Crypto</li>
+            <li class="main-menu__list__option">Tech Co Directory</li>
+            <li class="main-menu__list__option main-menu__list__option--white">Shop</li>
+            <li class="main-menu__list__option">NOONIES 2022</li>
+        </ul>
+    </nav>
+
+    <section class="color-section">
+        <img class="color-section__icon" src="assets/icons/brush2.avif" alt="">
+        <section class="submenu">
+            <div class="submenu__colorBox">
+                <h3>Site Color</h3>
+                <input type="color" name="" id="">
+                <input type="text">
+                <span>HEX</span>
+                <h3>Text color</h3>
+            </div>
+            <div class="submenu__colorBox">
+                <h3>Ad Color</h3>
+                <input type="color" name="" id="">
+                <input type="text">
+                <span>HEX</span>
+                <h3>Text color</h3>
+            </div>
+            <div class="flags">
+                <span>#PakistanFloodRelief</span>
+                <img src="/assets/img/pakistan.PNG" alt="">
+                <span>#StandWithUkraine</span>
+                <img src="/assets/img/Captura.PNG" alt="">
+                <span>#Pride</span>
+                <img src="/assets/img/Captura1.PNG" alt="">
+                <span>#Noonies2022</span>
+                <img src="/assets/img/Captura2.PNG" alt="">
+                <span>Evergreen</span>
+                <img src="/assets/img/Captura3.PNG" alt="">
+                <span>Classic</span>
+                <img src="/assets/img/Captura4.PNG" alt="">
+            </div>
+            <div class="form">
+                <h2 class="form_title">Sign Up to Save Your Colors</h2>
+                <div class="form_icon">
+                    <img class="icon" src="/assets/icons/google.png" alt="">
+                    <img class="icon" src="/assets/icons/github.png" alt="">
+                    <img class="icon" src="/assets/icons/facebook.png" alt="">
+                    <img class="icon" src="/assets/icons/gorjeo.png" alt="">
+                </div>
+                <div class="btn__container">
+                    <button class="form__btn">Sign Up with Wallet</button>
+                    <button class="form__btn">Send me a magic link</button>
+                </div>
+                <span>or</span>
+                <input class="form__input" type="text" placeholder="Email">
+                <input class="form__input" type="text" placeholder="Password">
+                <div class="btn__bottom">
+                    <button class="btn">Already have and account?</button>
+                    <button class="btn btn--border">Sign me up</button>
+                </div>
+            </div>
+        </section>
+        <section class="postSummary">
+            <div class="postTopSide">
+                <div class="post1 post postBorder">
+                   <h2 class="post__title">Decentralized Social Media: Is Bluesky Twitter’s Evil Twin?</h2>
+                   <div class="post__img">
+                   <img src="https://hackernoon.com/_next/image?url=https%3A%2F%2Fcdn.hackernoon.com%2Fimages%2FZaOj8HVcHth55zDFnTbjmpfCgQk2-dbb2var.jpeg&w=2048&q=75" alt="" class="img">
+                   <button class="post__tag">#enterthemetaverse</button>
+                   </div>
+                   <div class="bottomSide">
+                      <div class="bottomSide__container">
+                           <img src="/assets/img/ZaOj8HVcHth55zDFnTbjmpfCgQk2-2z93m8k.avif" alt="" class="bottomSide__img">
+                           <div class="internalBottomSide">
+                             <span class="Green">@apollopauljnr</span>
+                             <span class="Gray">APOLLO JNR</span>
+                           </div>
+                      </div>
+                      <div class="bottomSide__text">
+                         <span class="min">4min read</span>
+                         <span><i class="fa-solid fa-headphones headphone-icon"></i>4 hours ago</span>
+                      </div>
+                   </div>
+                </div>
+                <div class="post1 post">
+                    <h2 class="post__title">The Steam Deck is the Ultimate Emulation Machine</h2>
+                    <div class="post__img">
+                    <img src="https://hackernoon.com/_next/image?url=https%3A%2F%2Fcdn.hackernoon.com%2Fimages%2FNpclsXHLfPf1qjBCjmjlbDg2CFo1-9s93m0t.jpeg&w=2048&q=75" alt="" class="img">
+                    <button class="post__tag">#enterthemetaverse</button>
+                    </div>
+                    <div class="bottomSide">
+                       <div class="bottomSide__container">
+                            <img src="https://hackernoon.com/_next/image?url=https%3A%2F%2Fcdn.hackernoon.com%2Fimages%2FNpclsXHLfPf1qjBCjmjlbDg2CFo1-fp0350i.jpeg&w=2048&q=75" alt="" class="bottomSide__img">
+                            <div class="internalBottomSide">
+                              <span class="Green">@apollopauljnr</span>
+                              <span class="Gray">APOLLO JNR</span>
+                            </div>
+                       </div>
+                       <div class="bottomSide__text">
+                          <span class="min">4min read</span>
+                          <span><i class="fa-solid fa-headphones headphone-icon"></i>4 hours ago</span>
+                       </div>
+                    </div>
+                 </div>
+            </div>
+            <div class="bottomTopSide">
+                <div class="post1 post2">
+                    <h2 class="post__title">The 3 Best Visual Novel Series On Xbox</h2>
+                    <div class="post__img">
+                    <img src="https://hackernoon.com/_next/image?url=https%3A%2F%2Fcdn.hackernoon.com%2Fimages%2FeQHzh6rz7ETBHLjs0KzCl1Dooqp2-4o93qrg.jpeg&w=2048&q=75" alt="" class="img">
+                    <button class="post__tag">#enterthemetaverse</button>
+                    </div>
+                    <div class="bottomSide">
+                       <div class="bottomSide__container">
+                            <img src="https://hackernoon.com/_next/image?url=https%3A%2F%2Fcdn.hackernoon.com%2Fimages%2FeQHzh6rz7ETBHLjs0KzCl1Dooqp2-t393pm0.jpeg&w=2048&q=75" alt="" class="bottomSide__img">
+                            <div class="internalBottomSide">
+                              <span class="Green">@apollopauljnr</span>
+                              <span class="Gray">APOLLO JNR</span>
+                            </div>
+                       </div>
+                       <div class="bottomSide__text">
+                          <span class="min">4min read</span>
+                          <span><i class="fa-solid fa-headphones headphone-icon"></i>4 hours ago</span>
+                       </div>
+                    </div>
+                 </div>
+                 <div class="post1 post2">
+                    <h2 class="post__title">The Ray Shot Down and Squadrons of Planes Frizzled Like Moths in the Air</h2>
+                    <div class="post__img">
+                    <img src="https://hackernoon.com/_next/image?url=https%3A%2F%2Fcdn.hackernoon.com%2Fimages%2FugoTV1vwcgR4mN8MMDUUN4vt6p02-2u93unt.jpeg&w=2048&q=75" alt="" class="img">
+                    <button class="post__tag">#enterthemetaverse</button>
+                    </div>
+                    <div class="bottomSide">
+                       <div class="bottomSide__container">
+                            <img src="https://hackernoon.com/_next/image?url=https%3A%2F%2Fcdn.hackernoon.com%2Fimages%2FeYmBPfrqu8d2TdijQi8nkPK2yGl2-xb93joc.jpeg&w=2048&q=75" alt="" class="bottomSide__img">
+                            <div class="internalBottomSide">
+                              <span class="Green">@apollopauljnr</span>
+                              <span class="Gray">APOLLO JNR</span>
+                            </div>
+                       </div>
+                       <div class="bottomSide__text">
+                          <span class="min">4min read</span>
+                          <span><i class="fa-solid fa-headphones headphone-icon"></i>4 hours ago</span>
+                       </div>
+                    </div>
+                 </div>
+                 <div class="post1">
+                    <h2 class="post__title">Disinformation-as-a-Service: Content Marketing’s Evil Twin</h2>
+                    <div class="post__img">
+                    <img src="https://hackernoon.com/_next/image?url=https%3A%2F%2Fcdn.hackernoon.com%2Fimages%2F3nZg1mO3L1hKsmOFhBFXYNh4Pty2-xia3qjv.jpeg&w=2048&q=75" alt="" class="img">
+                    <button class="post__tag">#enterthemetaverse</button>
+                    </div>
+                    <div class="bottomSide">
+                       <div class="bottomSide__container">
+                            <img src="https://hackernoon.com/_next/image?url=https%3A%2F%2Fcdn.hackernoon.com%2Fimages%2F3nZg1mO3L1hKsmOFhBFXYNh4Pty2-ry93qot.jpeg&w=2048&q=75" alt="" class="bottomSide__img">
+                            <div class="internalBottomSide">
+                              <span class="Green">@apollopauljnr</span>
+                              <span class="Gray">APOLLO JNR</span>
+                            </div>
+                       </div>
+                       <div class="bottomSide__text">
+                          <span class="min">4min read</span>
+                          <span><i class="fa-solid fa-headphones headphone-icon"></i>4 hours ago</span>
+                       </div>
+                    </div>
+                 </div>
+            </div>    
+        </section>
+    </section>
+    <main class="main">
+        <div class="hackernoon-btn">
+            <a href="#" class="hackernoon-link">
+               <span class="hackernoon-text">Join Hackernoon</span>
+               <span><img class="hackernoon-gif" src="https://hackernoon.com/_next/image?url=https%3A%2F%2Fhackernoon.com%2Fwatch-gif.gif&w=96&q=75" alt=""></span>
+            </a>
+        </div>
+
+        <section>
+            <div class="pollOfTheWeekContainer">
+                <h2 class="pollOfTheWeekTittle">Poll of the week</h2>
+                <h3 class="pollOfTheWeekSubtittle">WHOSE GPU ARE YOU LIKELY TO PURCHASE NEXT?</h3>           
+                <p class="pollOfTheWeekText">Nvidia's 4xxx series, AMD's RX7 series, and Intel's AXXX series all dropped (or are due to drop) this year. What are you likely to purchase?</p>
+                <div class="pollOfTheWeekSubContainer">
+                    <div class="pollOfTheWeekVoteAndTeam">
+                        <button class="vote">Vote</button>
+                        <h3 class="team">Team Red (AMD)</h3>
+                    </div>
+                    <!--  -->
+                    <div class="pollOfTheWeekVoteAndTeam">
+                        <button class="vote">Vote</button>
+                        <h3 class="team">Team Green (Nvidia)</h3>
+                    </div>
+                    <!--  -->
+                    <div class="pollOfTheWeekVoteAndTeam">
+                        <button class="vote">Vote</button>
+                        <h3 class="team">Team Blue (Intel)</h3>
+                    </div>
+                        <!--  -->
+                    <div class="pollOfTheWeekVoteAndTeam">
+                        <button class="vote">Vote</button>
+                        <h3 class="team">I don't plan on buying a GPU anytime soon</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
